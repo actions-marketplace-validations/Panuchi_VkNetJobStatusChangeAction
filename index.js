@@ -5,13 +5,13 @@ try {
     const inputStr = core.getInput('string');
     console.log(`Manipulating string: ${inputStr}`);
     if(inputStr == "success"){
-        const result = '✅' + inputStr.charAt(0).toUpperCase() + inputStr.slice(1).toLowerCase();
+        const result = '✅ ' + inputStr.charAt(0).toUpperCase() + inputStr.slice(1).toLowerCase();
         console.log(`result: ${result}`);
         core.setOutput("result", result);
     }
 
     if(inputStr == "failure"){
-        const result = '❌' + inputStr.charAt(0).toUpperCase() + inputStr.slice(1).toLowerCase();
+        const result = '❌ ' + inputStr.charAt(0).toUpperCase() + inputStr.slice(1).toLowerCase();
         console.log(`result: ${result}`);
         core.setOutput("result", result);
     }
