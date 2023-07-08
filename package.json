@@ -1,0 +1,16 @@
+{
+  "name": "change-vknet-job-status-action",
+  "version": "1.0.0",
+  "description": "VkNet job status manipulation action for Github",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Timofei Jääger",
+  "license": "ISC",
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/github": "^4.0.0"
+  }
+}

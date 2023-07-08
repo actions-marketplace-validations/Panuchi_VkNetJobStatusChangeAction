@@ -1,0 +1,16 @@
+name: Change Job Status
+author: Timofei Jääger
+description: Make a Job Status with emoji
+branding:
+  icon: corner-down-right
+  color: gray-dark
+inputs:
+  string:
+    description: Job Status
+    required: true
+outputs:
+  result:
+    description: Job status with emoji
+runs:
+  using: node16
+  main: index.js
